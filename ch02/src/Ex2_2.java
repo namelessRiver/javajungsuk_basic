@@ -2,19 +2,21 @@
 public class Ex2_2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int year = 0, age = 14;
-		year = age + 2000;
-		// year = 14 + 2000
-		// year = 2014
+		int x = 10, y = 20;
+		int tmp = 0;
 		
-		age = age + 1;
-		// age = 14 + 1;
-		// age = 15;
+		System.out.println("====변환 전====");
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
+		System.out.println("\n");
 		
-		System.out.println(year);
-		System.out.println(age);
+		tmp = x;
+		x = y;
+		y = tmp;
 
+		System.out.println("====변환 후====");
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
 	}
 
 }
